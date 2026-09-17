@@ -1,0 +1,14 @@
+{
+  "name": "github-api-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Octokit + Python CLI for repo inventory and workflow_dispatch",
+  "bin": { "ghctl-octokit": "./src/index.mjs" },
+  "scripts": {
+    "inventory": "node src/index.mjs",
+    "inventory:json": "node src/index.mjs --json"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "@octokit/rest": "^21.1.1" }
+}
