@@ -1,0 +1,11 @@
+{
+  "name": "control12-authority",
+  "url": "https://github.com/doitupsolutions810-crow/capability-authority",
+  "hook_attributes": { "active": false },
+  "public": false,
+  "default_permissions": {
+    "actions": "write",
+    "contents": "read",
+    "metadata": "read"
+  }
+}
